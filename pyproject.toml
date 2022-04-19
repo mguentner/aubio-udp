@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "netbeat"
+version = "0.1.0"
+description = ""
+authors = ["Maximilian Güntner <code@sourcediver.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyAudio = "^0.2.11"
+aubio = { git="https://github.com/aubio/aubio", rev="8a05420e5dd8c7b8b2447f82dc919765876511b3" }
+click = "^8.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
